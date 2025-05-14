@@ -59,7 +59,7 @@ def remove_old_header(content):
 # Dosyaları tara ve eski header'ı silip yenisini ekle
 for root, dirs, files in os.walk(target_dir):
     for file in files:
-        if file.endswith(('.c', '.h')):  # .c ve .h dosyalarını hedef al
+        if file.endswith(('main.c', 'app_freertos.c')):  # .c ve .h dosyalarını hedef al
             file_path = os.path.join(root, file)
 
             with open(file_path, 'r', encoding='utf-8') as f:
