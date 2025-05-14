@@ -1,6 +1,9 @@
 import os
 import re
 
+####################### YAZILAN HEADER'LARI KALDIRMA  #######################
+
+
 target_dir = os.getcwd()  # Çalışma dizini
 
 # Header'ı silen fonksiyon
