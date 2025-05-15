@@ -1,1 +1,14 @@
-Roket uygulamalarında kullanmak için oluşturduğum header'lar
+header eklemeniz gereken dosyaların bulunduğu dosyaya py uzantılı header dosyalarını atın
+
+
+	nheader.py == tüm .c ya da .h uzantılı dosyalara ekler
+	
+	Rheader.py == main.c ya da app_freertos.c isimli dosyalara ekler
+
+	yeniheader.py == değiştirilmeye açıktır
+
+
+kurulum için önce cmd ile py uzantılı dosyanın bulunduğu konumuna gelip " python xxxx.py "(olası isim değişikliği için xxx dendi) yapması gerekmektedir
+
+
+temizlemek için de temizleme.py isimli dosyayı istenen yere atıp cmd ile aynı şekilde çalıştırmak yeterli olacaktır
